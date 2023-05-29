@@ -12,6 +12,7 @@ public class SILab2Test {
         assertEquals(false, SILab2.function(new User("user", "abcd efgh", "user@mail.com"), new ArrayList<>()));
         assertEquals(false,SILab2.function(new User("user", "pass", "user@mail.com"), new ArrayList<>()));
         assertEquals(true, SILab2.function(new User("user", "abcdefghi*", "user@mail.com"), new ArrayList<>()));
+        assertEquals(false, SILab2.function(new User("user", "abcdefgh","user"), new ArrayList<>()));
     }
     @Test
     public void multipleConditionTest(){
