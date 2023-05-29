@@ -1,13 +1,14 @@
 # SI_2023_lab2_216068
 
 # Aleksandra Nastoska 216068
-# 
-![Screenshot 2023-05-27 131233](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/5de30f3d-ccdc-47a9-83e1-8c06a774a4fe)
+# ![Screenshot 2023-05-27 131233](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/c1cecbc5-2f18-4354-9270-26e57fef7322)
+
 # Со пребројување на регионите на графот, може да видиме дека има 10 внатрешни региони. На нив го додаваме целиот надворешен регион и доаѓаме до бројка 11.
 # CFG=11
 
 # EVERY BRANCH
-# ![Screenshot 2023-05-29 172919](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/393b2b88-b897-45f3-8c28-f90c437fd923)
+# ![Screenshot 2023-05-29 172919](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/1ca187aa-7f7c-4baf-8333-3b0c7f10788b)
+
 
 # Прв пример е user=null
 # Втор тест пример е username="user", email="user@mail.com", pass="abcd efgh", allUsers може да биде било што бидејќи целта на овој тест пример е да се покрие случајот кога имаме празно место во password
@@ -17,7 +18,8 @@
 
 
 # MULTIPLE CONDITION
-# ![Screenshot 2023-05-27 152457](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/c76e1a24-4801-4058-892a-9b1b6c3d9042)
+# ![Screenshot 2023-05-27 152457](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/10d3e10d-ea3e-44e6-a112-2e327a32f588)
+
 
 # Ако user==null, не се разгледуваат останатите два услови и се влегува во if циклусот. Условот враќа Т
 # Ако user.getPasswork()==null && user!=null, се влегува во циклусот и враќа Т
@@ -25,5 +27,5 @@
 # Ako user!=null && user.getPassword()!=null && user.getEmail()!=null, враќа F и не е исполнет условот
 
 # Тестови
-# ![Screenshot 2023-05-29 220719](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/2df47ee5-fe92-473f-b2df-2e3faeef7392)
+# ![Screenshot 2023-05-29 220719](https://github.com/aleksandranastoska/SI_2023_lab2_216068/assets/92433336/e4f85686-934c-4142-b6e0-ffef17ff95b9)
 
